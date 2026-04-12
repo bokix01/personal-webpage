@@ -5,128 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Borna Krpan</title>
     <link rel="icon" type="image/x-icon" href="./images/pp.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
           integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+          crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
-<body>
-<header>
-    <h2><a href="./index.html">Borna Krpan</a></h2>
-    <ul>
-        <li><span class="secondary"><i class="fa-solid fa-house"></i> <a href="./index.html">Home</a></span></li>
-        <li><i class="fa-solid fa-code"></i> <a href="./skills.html">Skills</a></li>
-        <li><i class="fa-solid fa-folder-tree"></i> <a href="./projects.html">Projects</a></li>
-    </ul>
+<body class="page-home">
+<header class="site-header">
+    <a class="brand" href="./index.html">Borna Krpan</a>
+    <nav>
+        <ul class="nav-list">
+            <li><a class="nav-link active" href="./index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+            <li><a class="nav-link" href="./skills.html"><i class="fa-solid fa-code"></i><span>Skills</span></a></li>
+            <li><a class="nav-link" href="./projects.html"><i class="fa-solid fa-folder-tree"></i><span>Projects</span></a></li>
+        </ul>
+    </nav>
 </header>
-<main>
-    <section class="about-me">
-        <article>
-            <div>
-                <img id="profile-picture" src="images/pp.png" alt="Profile picture">
+<main class="site-main">
+    <section class="hero section-card">
+        <div class="hero-copy">
+            <p class="eyebrow">Software Engineer / Web / Robotics</p>
+            <h1>Building clean digital products and award-winning technical projects.</h1>
+            <p class="lede">
+                I am Borna Krpan, a developer focused on modern web applications, backend systems, and applied
+                engineering projects that connect software with the physical world.
+            </p>
+            <div class="hero-actions">
+                <a class="button button-primary" href="./projects.html">View projects</a>
+                <a class="button button-secondary" href="./skills.html">Explore skills</a>
             </div>
-            <div>
-                <h1>Borna Krpan</h1>
-                <p>
-                    Young developer with more than <span class="secondary">four years of experience</span>, strongly motivated
-                    and eager to expand knowledge in informatics.
-                </p>
-                <p>
-                    My main area of focus is software development, especially web applications. I'm also developing in field of
-                    robotics. Project in both fields have brought me numerous <span class="secondary">awards</span>.
-                </p>
-            </div>
-        </article>
-        <div>
-            <ul>
-                <li>
-                    <a class="link-secondary" target="_blank" href="https://discord.com/users/429328860648308766">
-                        <img src="https://easyicons.xyz/icons/Discord.svg" alt="Discord" width="48px">
-                    </a>
-                </li>
-                <li>
-                    <a class="link-secondary" target="_blank" href="https://github.com/xikodev">
-                        <img src="https://easyicons.xyz/icons/Github-Dark.svg" alt="Github" width="48px">
-                    </a>
-                </li>
-                <li>
-                    <a class="link-secondary" target="_blank" href="https://www.linkedin.com/in/borna-krpan">
-                        <img src="https://easyicons.xyz/icons/LinkedIn.svg" alt="LinkedIn" width="48px">
-                    </a>
-                </li>
-                <li>
-                    <a class="link-secondary" target="_blank" href="https://www.facebook.com/borna.krpan77">
-                        <img src="https://easyicons.xyz/icons/Facebook.svg" alt="Facebook" width="48px">
-                    </a>
-                </li>
-                <li>
-                    <a class="link-secondary" target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=borna5krpan@gmail.com">
-                        <img src="https://easyicons.xyz/icons/Gmail-Dark.svg" alt="Gmail" width="48px">
-                    </a>
-                </li>
+            <ul class="social-list">
+                <li><a aria-label="Discord" href="https://discord.com/users/429328860648308766" target="_blank" rel="noreferrer"><img src="https://easyicons.xyz/icons/Discord.svg" alt="Discord"></a></li>
+                <li><a aria-label="GitHub" href="https://github.com/xikodev" target="_blank" rel="noreferrer"><img src="https://easyicons.xyz/icons/Github-Dark.svg" alt="GitHub"></a></li>
+                <li><a aria-label="LinkedIn" href="https://www.linkedin.com/in/borna-krpan" target="_blank" rel="noreferrer"><img src="https://easyicons.xyz/icons/LinkedIn.svg" alt="LinkedIn"></a></li>
+                <li><a aria-label="Facebook" href="https://www.facebook.com/borna.krpan77" target="_blank" rel="noreferrer"><img src="https://easyicons.xyz/icons/Facebook.svg" alt="Facebook"></a></li>
+                <li><a aria-label="Email" href="https://mail.google.com/mail/?view=cm&fs=1&to=borna5krpan@gmail.com" target="_blank" rel="noreferrer"><img src="https://easyicons.xyz/icons/Gmail-Dark.svg" alt="Email"></a></li>
             </ul>
         </div>
+        <div class="hero-visual">
+            <div class="portrait-shell">
+                <img id="profile-picture" src="images/pp.png" alt="Borna Krpan portrait">
+            </div>
+            <div class="signal-card">
+                <p class="signal-label">Current focus</p>
+                <p class="signal-value">Full-stack web systems, backend engineering, and embedded prototypes.</p>
+            </div>
+        </div>
     </section>
-    <hr>
-    <section class="education">
-        <h2>Education</h2>
-        <article>
-            <ul>
-                <li>
-                    <h3>Technical school Zagreb</h3>
-                    <p>2020./21. - 2023./24.</p>
-                </li>
-                <li>
-                    <h3>University of Zagreb, Faculty of Electrical Engineering and Computing</h3>
-                    <p>2024./25. -<span class="tertiary">Present</span></p>
-                </li>
-            </ul>
+
+    <section class="metrics-grid">
+        <article class="metric-card section-card">
+            <p class="metric-value">4+</p>
+            <p class="metric-label">Years of building production-ready software and technical prototypes.</p>
+        </article>
+        <article class="metric-card section-card">
+            <p class="metric-value">Web + Hardware</p>
+            <p class="metric-label">Comfortable across web apps, backend services, robotics, and embedded systems.</p>
+        </article>
+        <article class="metric-card section-card">
+            <p class="metric-value">Awards</p>
+            <p class="metric-label">Projects in both software and engineering have earned competition recognition.</p>
         </article>
     </section>
-    <hr>
-    <section class="work-experience">
-        <h2>Work Experience</h2>
-        <article>
-            <ul>
-                <li class="four-of-them">
+
+    <section class="content-grid">
+        <article class="section-card">
+            <p class="eyebrow">Education</p>
+            <h2>Technical foundation with a strong computing focus.</h2>
+            <div class="timeline">
+                <div class="timeline-item">
                     <div>
-                        <h3>
-                            <a class="link-secondary" target="_blank" href="https://4ofthem.eu/">FOUR OF THEM</a>
-                        </h3>
-                        <p>
-                            Position: Backend Developer
-                        </p>
-                        <p>
-                            <a target="_blank" href="https://www.php.net/">
-                                <img src="https://easyicons.xyz/icons/PHP-Dark.svg" alt="PHP" width="48px">
-                            </a>
-                            <a target="_blank" href="https://symfony.com/">
-                                <img src="https://easyicons.xyz/icons/Symfony-Dark.svg" alt="Symfony" width="48px">
-                            </a>
-                            <a target="_blank" href="https://www.docker.com/">
-                                <img src="https://easyicons.xyz/icons/Docker.svg" alt="Docker" width="48px">
-                            </a>
-                            <a target="_blank" href="https://www.jetbrains.com/phpstorm/">
-                                <img src="https://easyicons.xyz/icons/PhpStorm-Dark.svg" alt="PhpStorm" width="48px">
-                            </a>
-                        </p>
+                        <h3>Technical school Zagreb</h3>
+                        <p>Built the fundamentals in programming, engineering, and practical problem solving.</p>
                     </div>
+                    <span>2020 - 2024</span>
+                </div>
+                <div class="timeline-item">
                     <div>
-                        <p>21.7.2025. - 30.9.2025.</p>
-                        <hr>
+                        <h3>University of Zagreb, Faculty of Electrical Engineering and Computing</h3>
+                        <p>Currently expanding into deeper computer science, systems thinking, and advanced engineering.</p>
                     </div>
-                </li>
-            </ul>
+                    <span>2024 - Present</span>
+                </div>
+            </div>
         </article>
+
+        <article class="section-card">
+            <p class="eyebrow">Experience</p>
+            <h2>Professional backend development in a real delivery environment.</h2>
+            <div class="experience-card">
+                <div class="experience-copy">
+                    <h3><a href="https://4ofthem.eu/" target="_blank" rel="noreferrer">FOUR OF THEM</a></h3>
+                    <p>Backend Developer</p>
+                    <ul class="tag-list">
+                        <li>PHP</li>
+                        <li>Symfony</li>
+                        <li>Docker</li>
+                        <li>PhpStorm</li>
+                    </ul>
+                </div>
+                <div class="experience-date">
+                    <span>Jul 21, 2025 - Sep 30, 2025</span>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="section-card spotlight-card">
+        <div>
+            <p class="eyebrow">Selected Work</p>
+            <h2>Projects that blend product thinking, engineering discipline, and technical range.</h2>
+        </div>
+        <div class="spotlight-grid">
+            <article>
+                <h3>Timetable Ease</h3>
+                <p>A scheduling platform built to simplify school timetable management and daily coordination.</p>
+            </article>
+            <article>
+                <h3>TimeSheriff</h3>
+                <p>A Discord bot for timezone awareness and event coordination across global communities.</p>
+            </article>
+            <article>
+                <h3>Humiditas Lux</h3>
+                <p>An engineering concept for safer road visibility in poor weather and low-light conditions.</p>
+            </article>
+        </div>
+        <a class="button button-primary" href="./projects.html">See all projects</a>
     </section>
 </main>
-<footer>
-    <p>&copy; 2025 <span class="secondary">Borna Krpan</span>. All rights reserved.</p>
-    <a href="https://www.buymeacoffee.com/xikodev" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<footer class="site-footer">
+    <p>&copy; 2026 <span>Borna Krpan</span>. All rights reserved.</p>
+    <a class="coffee-link" href="https://www.buymeacoffee.com/xikodev" target="_blank" rel="noreferrer">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee">
+    </a>
 </footer>
 </body>
 </html>

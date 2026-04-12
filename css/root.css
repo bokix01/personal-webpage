@@ -1,18 +1,22 @@
 :root {
-    --primary-background-color: #0A0B1E;
-    --secondary-background-color: #000000;
-
-    --primary-color: #FFF;
-    --secondary-color: #9333EA;
-    --tertiary-color: #67E8F9;
-
-    --secondary-color-hover: #7111D8;
-    --tertiary-color-hover: #45C6D7;
-
-    --finished: #14FF6D;
-    --finished-hover: #00FF00;
-    --in-progress: #FFAD00;
-    --private: #FF3F3F;
-    --private-hover: #FF1010;
-    --discord: #5865F2;
+    --bg-base: #070b11;
+    --bg-elevated: rgba(18, 24, 38, 0.72);
+    --bg-strong: rgba(12, 18, 29, 0.92);
+    --bg-soft: rgba(148, 163, 184, 0.08);
+    --border-soft: rgba(148, 163, 184, 0.18);
+    --border-strong: rgba(125, 211, 252, 0.24);
+    --text-primary: #f5f7fb;
+    --text-secondary: #c5d0df;
+    --text-muted: #8a97ab;
+    --accent: #7dd3fc;
+    --accent-strong: #38bdf8;
+    --accent-secondary: #c4b5fd;
+    --accent-success: #86efac;
+    --danger: #fca5a5;
+    --shadow-soft: 0 30px 80px rgba(0, 0, 0, 0.35);
+    --shadow-card: 0 24px 60px rgba(0, 0, 0, 0.24);
+    --radius-xl: 32px;
+    --radius-lg: 24px;
+    --radius-md: 18px;
+    --content-width: 1180px;
 }

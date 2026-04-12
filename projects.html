@@ -5,303 +5,201 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Borna Krpan</title>
     <link rel="icon" type="image/x-icon" href="images/pp.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
           integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+          crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
-<body>
-<header>
-    <h2><a href="./index.html">Borna Krpan</a></h2>
-    <ul>
-        <li><i class="fa-solid fa-house"></i> <a href="./index.html">Home</a></li>
-        <li><i class="fa-solid fa-code"></i> <a href="./skills.html">Skills</a></li>
-        <li><span class="secondary"><i class="fa-solid fa-folder-tree"></i> <a
-                href="./projects.html">Projects</a></span></li>
-    </ul>
+<body class="page-projects">
+<header class="site-header">
+    <a class="brand" href="./index.html">Borna Krpan</a>
+    <nav>
+        <ul class="nav-list">
+            <li><a class="nav-link" href="./index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+            <li><a class="nav-link" href="./skills.html"><i class="fa-solid fa-code"></i><span>Skills</span></a></li>
+            <li><a class="nav-link active" href="./projects.html"><i class="fa-solid fa-folder-tree"></i><span>Projects</span></a></li>
+        </ul>
+    </nav>
 </header>
-<main>
-    <h2>Projects</h2>
-    <section>
-        <h3 id="timetable-ease">Timetable Ease</h3>
-        <p>
-            <img class="icon" src="images/projects/timetable-ease/logo.png" alt="">
-            The application is used to display schedules to all students and teachers and was created to help
-            schools overcome the obstacles they encounter when creating, changing and storing schedules and
-            temporarily replacing professors and subjects.
+<main class="site-main">
+    <section class="page-intro section-card">
+        <p class="eyebrow">Projects</p>
+        <h1>Software products, community tools, and engineering prototypes.</h1>
+        <p class="lede">
+            The portfolio spans web platforms, automation tooling, Discord products, and physical systems built around
+            clear problem solving and execution.
         </p>
-
-
-        <div class="images">
-            <img src="images/projects/timetable-ease/settings.png" alt="">
-            <img src="images/projects/timetable-ease/navbar.png" alt="">
-            <img src="images/projects/timetable-ease/timetable.png" alt="">
-        </div>
-
-        <ul class="skills">
-            <li>
-                <a target="_blank" href="https://www.python.org/">
-                    <img src="https://easyicons.xyz/icons/Python-Dark.svg" alt="Python" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.javascript.com/">
-                    <img src="https://easyicons.xyz/icons/JavaScript.svg" alt="JavaScript" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://html.com/">
-                    <img src="https://easyicons.xyz/icons/HTML.svg" alt="HTML" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="#">
-                    <img src="https://easyicons.xyz/icons/CSS.svg" alt="CSS" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://aws.amazon.com/">
-                    <img src="https://easyicons.xyz/icons/AWS-Dark.svg" alt="AWS" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.mysql.com/">
-                    <img src="https://easyicons.xyz/icons/MySQL-Dark.svg" alt="MySQL" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.jetbrains.com/pycharm/">
-                    <img src="https://easyicons.xyz/icons/PyCharm-Dark.svg" alt="PyCharm" width="48px">
-                </a>
-            </li>
-        </ul>
-        <div class="links">
-            <a class="finished" href="https://www.linkedin.com/in/borna-krpan/details/honors/">
-                <i class="fa-solid fa-award"></i>Project awards
-            </a>
-            <a class="link-primary" target="_blank" href="https://github.com/xikodev/timetableease">
-                <i class="fa-brands fa-github"></i>View project source code
-            </a>
-        </div>
     </section>
-    <hr>
 
-    <section>
-        <h3 id="chores-quest">Chores Quest</h3>
-        <p>
-            Family based mobile app for doing chores and getting awards in return.
-        </p>
+    <section class="project-stack">
+        <article class="project-card project-card-featured section-card">
+            <div class="project-copy">
+                <p class="eyebrow">Featured</p>
+                <h2 id="timetable-ease">Timetable Ease</h2>
+                <p>
+                    A scheduling application created to help schools manage timetables, temporary substitutions, and
+                    day-to-day planning with less operational friction.
+                </p>
+                <ul class="tech-list">
+                    <li><img src="https://easyicons.xyz/icons/Python-Dark.svg" alt="Python"></li>
+                    <li><img src="https://easyicons.xyz/icons/JavaScript.svg" alt="JavaScript"></li>
+                    <li><img src="https://easyicons.xyz/icons/HTML.svg" alt="HTML"></li>
+                    <li><img src="https://easyicons.xyz/icons/CSS.svg" alt="CSS"></li>
+                    <li><img src="https://easyicons.xyz/icons/AWS-Dark.svg" alt="AWS"></li>
+                    <li><img src="https://easyicons.xyz/icons/MySQL-Dark.svg" alt="MySQL"></li>
+                    <li><img src="https://easyicons.xyz/icons/PyCharm-Dark.svg" alt="PyCharm"></li>
+                </ul>
+                <div class="button-row">
+                    <a class="button button-accent" href="https://www.linkedin.com/in/borna-krpan/details/honors/" target="_blank" rel="noreferrer">
+                        <i class="fa-solid fa-award"></i><span>Project awards</span>
+                    </a>
+                    <a class="button button-secondary" href="https://github.com/xikodev/timetableease" target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-github"></i><span>Source code</span>
+                    </a>
+                </div>
+            </div>
+            <div class="project-media-grid">
+                <img src="images/projects/timetable-ease/settings.png" alt="Timetable Ease settings view">
+                <img src="images/projects/timetable-ease/navbar.png" alt="Timetable Ease navigation view">
+                <img src="images/projects/timetable-ease/timetable.png" alt="Timetable Ease timetable view">
+            </div>
+        </article>
 
-        <p class="private">No images for this project yet.</p>
+        <article class="project-card section-card">
+            <div class="project-copy">
+                <h2 id="chores-quest">Chores Quest</h2>
+                <p>Family-oriented mobile app concept for managing chores and rewarding consistency.</p>
+                <p class="status-note">Private project. Public visuals are not available yet.</p>
+                <ul class="tech-list">
+                    <li><img src="https://easyicons.xyz/icons/NodeJS-Dark.svg" alt="NodeJS"></li>
+                    <li><img src="https://easyicons.xyz/icons/React-Dark.svg" alt="React"></li>
+                    <li><img src="https://easyicons.xyz/icons/JavaScript.svg" alt="JavaScript"></li>
+                    <li><img src="https://easyicons.xyz/icons/HTML.svg" alt="HTML"></li>
+                    <li><img src="https://easyicons.xyz/icons/CSS.svg" alt="CSS"></li>
+                    <li><img src="https://easyicons.xyz/icons/RaspberryPi-Dark.svg" alt="Raspberry Pi"></li>
+                    <li><img src="https://easyicons.xyz/icons/WebStorm-Dark.svg" alt="WebStorm"></li>
+                </ul>
+                <div class="button-row">
+                    <a class="button button-secondary" href="https://github.com/xikodev/chores-quest" target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-github"></i><span>Source code</span>
+                    </a>
+                </div>
+            </div>
+        </article>
 
-        <ul class="skills">
-            <li>
-                <a target="_blank" href="https://nodejs.org/">
-                    <img src="https://easyicons.xyz/icons/NodeJS-Dark.svg" alt="NodeJS" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://react.dev/">
-                    <img src="https://easyicons.xyz/icons/React-Dark.svg" alt="React" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.javascript.com/">
-                    <img src="https://easyicons.xyz/icons/JavaScript.svg" alt="JavaScript" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://html.com/">
-                    <img src="https://easyicons.xyz/icons/HTML.svg" alt="HTML" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="#">
-                    <img src="https://easyicons.xyz/icons/CSS.svg" alt="CSS" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.raspberrypi.com/">
-                    <img src="https://easyicons.xyz/icons/RaspberryPi-Dark.svg" alt="RaspberryPi" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.jetbrains.com/webstorm/">
-                    <img src="https://easyicons.xyz/icons/WebStorm-Dark.svg" alt="WebStorm" width="48px">
-                </a>
-            </li>
-        </ul>
-        <a class="link-primary" target="_blank" href="https://github.com/xikodev/chores-quest">
-            <i class="fa-brands fa-github"></i>View project source code
-        </a>
-    </section>
-    <hr>
+        <article class="project-card section-card">
+            <div class="project-copy">
+                <h2 id="easy-icons">Easy Icons</h2>
+                <p>Simple icon delivery project for quickly embedding developer tooling and stack visuals on websites.</p>
+                <ul class="tech-list">
+                    <li><img src="images/projects/easy-icons/logo.png" alt="Easy Icons logo"></li>
+                    <li><img src="https://easyicons.xyz/icons/JavaScript.svg" alt="JavaScript"></li>
+                    <li><img src="https://easyicons.xyz/icons/HTML.svg" alt="HTML"></li>
+                    <li><img src="https://easyicons.xyz/icons/CSS.svg" alt="CSS"></li>
+                    <li><img src="https://easyicons.xyz/icons/WebStorm-Dark.svg" alt="WebStorm"></li>
+                </ul>
+                <div class="button-row">
+                    <a class="button button-primary" href="https://easyicons.xyz" target="_blank" rel="noreferrer">
+                        <i class="fa-solid fa-link"></i><span>Visit website</span>
+                    </a>
+                    <a class="button button-secondary" href="https://github.com/xikodev/easy-icons" target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-github"></i><span>Source code</span>
+                    </a>
+                </div>
+            </div>
+        </article>
 
-    <section>
-        <h3 id="easy-icons">Easy Icons</h3>
-        <p>
-            <img class="icon" src="images/projects/easy-icons/logo.png" alt="">
-            Display skills on your page with Easy Icons.
-        </p>
+        <article class="project-card section-card">
+            <div class="project-copy">
+                <h2 id="timesheriff">TimeSheriff</h2>
+                <p>
+                    Discord bot for timezone visibility and lightweight coordination across globally distributed
+                    communities.
+                </p>
+                <ul class="tech-list">
+                    <li><img src="images/projects/timesheriff/timesheriff.png" alt="TimeSheriff logo"></li>
+                    <li><img src="https://easyicons.xyz/icons/JavaScript.svg" alt="JavaScript"></li>
+                    <li><img src="https://easyicons.xyz/icons/DiscordJS-Dark.svg" alt="DiscordJS"></li>
+                    <li><img src="https://easyicons.xyz/icons/MySQL-Dark.svg" alt="MySQL"></li>
+                    <li><img src="https://easyicons.xyz/icons/RaspberryPi-Dark.svg" alt="Raspberry Pi"></li>
+                    <li><img src="https://easyicons.xyz/icons/WebStorm-Dark.svg" alt="WebStorm"></li>
+                </ul>
+                <div class="button-row">
+                    <a class="button button-primary" href="https://timesheriff.xyz" target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-discord"></i><span>Add to server</span>
+                    </a>
+                    <a class="button button-secondary" href="https://github.com/xikodev/timesheriff" target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-github"></i><span>Source code</span>
+                    </a>
+                </div>
+            </div>
+        </article>
 
-        <ul class="skills">
-            <li>
-                <a target="_blank" href="https://www.javascript.com/">
-                    <img src="https://easyicons.xyz/icons/JavaScript.svg" alt="JavaScript" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://html.com/">
-                    <img src="https://easyicons.xyz/icons/HTML.svg" alt="HTML" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="#">
-                    <img src="https://easyicons.xyz/icons/CSS.svg" alt="CSS" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.jetbrains.com/webstorm/">
-                    <img src="https://easyicons.xyz/icons/WebStorm-Dark.svg" alt="WebStorm" width="48px">
-                </a>
-            </li>
-        </ul>
-        <div class="links">
-            <a class="discord" target="_blank" href="https://easyicons.xyz">
-                <i class="fa-solid fa-link"></i>Visit project website
-            </a>
-            <a class="link-primary" target="_blank" href="https://github.com/xikodev/easy-icons">
-                <i class="fa-brands fa-github"></i>View project source code
-            </a>
-        </div>
-    </section>
-    <hr>
+        <article class="project-card section-card">
+            <div class="project-copy">
+                <h2 id="humiditas-lux">Humiditas Lux</h2>
+                <p>
+                    Adjustable road-mark illumination system designed for safer visibility when humidity, rain, or fog
+                    reduces clarity at night.
+                </p>
+                <ul class="tech-list">
+                    <li><img src="https://easyicons.xyz/icons/Arduino.svg" alt="Arduino"></li>
+                    <li><img src="https://easyicons.xyz/icons/Blender-Dark.svg" alt="Blender"></li>
+                </ul>
+                <div class="button-row">
+                    <a class="button button-accent" href="https://www.linkedin.com/in/borna-krpan/details/honors/" target="_blank" rel="noreferrer">
+                        <i class="fa-solid fa-award"></i><span>Project awards</span>
+                    </a>
+                    <a class="button button-secondary" href="https://github.com/xikodev/humiditas-lux" target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-github"></i><span>Source code</span>
+                    </a>
+                </div>
+            </div>
+            <div class="project-media-grid project-media-grid-duo">
+                <img src="images/projects/humiditas-lux/lights-on.jpg" alt="Humiditas Lux prototype with lights on">
+                <img src="images/projects/humiditas-lux/lights-off.jpg" alt="Humiditas Lux prototype with lights off">
+            </div>
+        </article>
 
-    <section>
-        <h3 id="timesheriff">TimeSheriff</h3>
-        <p>
-            <img class="icon" src="images/projects/timesheriff/timesheriff.png" alt="">
-            TimeSheriff helps your community stay in sync across the globe. It lets users set their timezone, view each
-            other’s local times, and coordinate events effortlessly - no more mental math or missed pings!
-        </p>
-
-        <ul class="skills">
-            <li>
-                <a target="_blank" href="https://www.javascript.com/">
-                    <img src="https://easyicons.xyz/icons/JavaScript.svg" alt="JavaScript" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://discord.js.org/">
-                    <img src="https://easyicons.xyz/icons/DiscordJS-Dark.svg" alt="DiscordJS" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.mysql.com/">
-                    <img src="https://easyicons.xyz/icons/MySQL-Dark.svg" alt="MySQL" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.raspberrypi.com/">
-                    <img src="https://easyicons.xyz/icons/RaspberryPi-Dark.svg" alt="RaspberryPi" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.jetbrains.com/webstorm/">
-                    <img src="https://easyicons.xyz/icons/WebStorm-Dark.svg" alt="WebStorm" width="48px">
-                </a>
-            </li>
-        </ul>
-        <div class="links">
-            <a class="discord" target="_blank" href="https://timesheriff.xyz">
-                <i class="fa-brands fa-discord"></i>Add to your server
-            </a>
-            <a class="link-primary" target="_blank" href="https://github.com/xikodev/timesheriff">
-                <i class="fa-brands fa-github"></i>View project source code
-            </a>
-        </div>
-    </section>
-    <hr>
-
-    <section>
-        <h3 id="humiditas-lux">Humiditas Lux</h3>
-        <p>
-            Innovative adjustable system for illumination of road marks when humidity is high (usually when it's
-            raining or there is fog) in combination with dark at night.
-        </p>
-
-        <div class="images">
-            <img src="images/projects/humiditas-lux/lights-on.jpg" alt="">
-            <img src="images/projects/humiditas-lux/lights-off.jpg" alt="">
-        </div>
-
-        <ul class="skills">
-            <li>
-                <a target="_blank" href="https://www.arduino.cc/">
-                    <img src="https://easyicons.xyz/icons/Arduino.svg" alt="Arduino" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.blender.org/">
-                    <img src="https://easyicons.xyz/icons/Blender-Dark.svg" alt="Blender" width="48px">
-                </a>
-            </li>
-        </ul>
-        <div class="links">
-            <a class="finished" href="https://www.linkedin.com/in/borna-krpan/details/honors/">
-                <i class="fa-solid fa-award"></i>Project awards
-            </a>
-            <a class="link-primary" target="_blank" href="https://github.com/xikodev/humiditas-lux">
-                <i class="fa-brands fa-github"></i>View project source code
-            </a>
-        </div>
-    </section>
-    <hr>
-
-    <section>
-        <h3 id="automated-speed-bump">Automated Speed Bump</h3>
-        <p>
-            The innovation can be used on any roads with speed limits. It measures the speed of cars and if they are
-            speeding the speed bump will rise, otherwise it will be down and the road will be flat.
-        </p>
-
-        <div class="images">
-            <img src="images/projects/automated-speed-bump/project.jpg" alt="">
-            <img src="images/projects/automated-speed-bump/speed-bump.jpg" alt="">
-            <img src="images/projects/automated-speed-bump/lcd.jpg" alt="">
-        </div>
-
-        <ul class="skills">
-            <li>
-                <a target="_blank" href="https://www.arduino.cc/">
-                    <img src="https://easyicons.xyz/icons/Arduino.svg" alt="Arduino" width="48px">
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.blender.org/">
-                    <img src="https://easyicons.xyz/icons/Blender-Dark.svg" alt="Blender" width="48px">
-                </a>
-            </li>
-        </ul>
-        <div class="links">
-            <a class="finished" href="https://www.linkedin.com/in/borna-krpan/details/honors/">
-                <i class="fa-solid fa-award"></i>Project awards
-            </a>
-            <a class="link-primary" target="_blank" href="https://github.com/xikodev/automated-speed-bump">
-                <i class="fa-brands fa-github"></i>View project source code
-            </a>
-        </div>
+        <article class="project-card section-card">
+            <div class="project-copy">
+                <h2 id="automated-speed-bump">Automated Speed Bump</h2>
+                <p>
+                    A responsive road-safety concept where the bump rises only when a vehicle exceeds the speed limit,
+                    keeping the road flat for compliant traffic.
+                </p>
+                <ul class="tech-list">
+                    <li><img src="https://easyicons.xyz/icons/Arduino.svg" alt="Arduino"></li>
+                    <li><img src="https://easyicons.xyz/icons/Blender-Dark.svg" alt="Blender"></li>
+                </ul>
+                <div class="button-row">
+                    <a class="button button-accent" href="https://www.linkedin.com/in/borna-krpan/details/honors/" target="_blank" rel="noreferrer">
+                        <i class="fa-solid fa-award"></i><span>Project awards</span>
+                    </a>
+                    <a class="button button-secondary" href="https://github.com/xikodev/automated-speed-bump" target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-github"></i><span>Source code</span>
+                    </a>
+                </div>
+            </div>
+            <div class="project-media-grid">
+                <img src="images/projects/automated-speed-bump/project.jpg" alt="Automated Speed Bump full project model">
+                <img src="images/projects/automated-speed-bump/speed-bump.jpg" alt="Automated Speed Bump close-up">
+                <img src="images/projects/automated-speed-bump/lcd.jpg" alt="Automated Speed Bump speed display">
+            </div>
+        </article>
     </section>
 </main>
-<footer>
-    <p>&copy; 2025 <span class="secondary">Borna Krpan</span>. All rights reserved.</p>
-    <a href="https://www.buymeacoffee.com/xikodev" target="_blank"><img
-            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee"
-            style="height: 60px !important;width: 217px !important;"></a>
+<footer class="site-footer">
+    <p>&copy; 2026 <span>Borna Krpan</span>. All rights reserved.</p>
+    <a class="coffee-link" href="https://www.buymeacoffee.com/xikodev" target="_blank" rel="noreferrer">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee">
+    </a>
 </footer>
 </body>
 </html>

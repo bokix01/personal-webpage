@@ -1,12 +1,39 @@
 @import 'root.css';
 
-footer {
-    width: 100%;
-    background-color: var(--secondary-background-color);
-    padding: 1em 0;
+.site-footer {
+    width: min(calc(100% - 48px), var(--content-width));
+    margin: 0 auto 32px;
+    padding: 22px 24px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    margin-top: auto;
+    gap: 20px;
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius-lg);
+    background: var(--bg-elevated);
+    backdrop-filter: blur(14px);
+}
+
+.site-footer p {
+    margin: 0;
+    color: var(--text-muted);
+}
+
+.site-footer span {
+    color: var(--text-primary);
+}
+
+.coffee-link img {
+    width: 185px;
+    height: auto;
+    border-radius: 12px;
+}
+
+@media (width <= 760px) {
+    .site-footer {
+        width: min(calc(100% - 24px), var(--content-width));
+        padding: 18px;
+        flex-direction: column;
+        text-align: center;
+    }
 }

@@ -1,19 +1,43 @@
 @import 'root.css';
 
+* {
+    box-sizing: border-box;
+}
+
 html {
-    height: 100vh;
+    min-height: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
-    background: var(--primary-background-color);
-    color: var(--primary-color);
-    font-family: Verdana, sans-serif;
-    font-size: 1em;
-    height: 100%;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
+    min-height: 100vh;
+    color: var(--text-primary);
+    font-family: 'Manrope', sans-serif;
+    background:
+        radial-gradient(circle at top left, rgba(56, 189, 248, 0.16), transparent 28%),
+        radial-gradient(circle at top right, rgba(196, 181, 253, 0.14), transparent 26%),
+        linear-gradient(180deg, #0a0f18 0%, var(--bg-base) 42%, #05080d 100%);
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+    background-size: 72px 72px;
+    mask-image: radial-gradient(circle at center, black 45%, transparent 88%);
+    pointer-events: none;
+    opacity: 0.35;
+}
+
+a {
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
